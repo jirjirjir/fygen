@@ -210,7 +210,7 @@ class FYGen(object):
   """
   def __init__(
       self,
-      serial_path='/dev/ttyUSB0',
+      serial_path='COM2',
       port=None,
       device_name=None,
       default_channel=0,
